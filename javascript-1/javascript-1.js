@@ -71,7 +71,6 @@ const compareNums = (num1, num2) => {
 */
 
 const bestMovie = (title) => `${title} is the best movie ever!`
-bestMovie('Sharknado')
 
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -121,7 +120,7 @@ delete gameInfo.rating
 
 for(let key in shapes) {
     if(shapes[key] % 2 !== 0) {
-        delete shapes.key
+        delete shapes[key]
     }
 }
   
